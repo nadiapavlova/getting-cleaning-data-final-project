@@ -89,12 +89,10 @@ tidy_data <- final_noactivity %>%
         group_by(subjectid, activityid) %>%
         summarise_each(funs(mean))
 
-
-
 # Merging the tidy_data with activity_type to include descriptive acitvity names
-tidy_data <- merge(tidy_data,activity_type,by = "activityid",all.x=TRUE)
+tidy_data <- merge(tidy_data, activity_type,by = "activityid",all.x=TRUE)
 
 # Export the tidy_data set 
-write.table(tidy_data, "./tidy_data.txt",row.names = FALSE,sep = "\t")
+write.table(tidy_data, "./tidy_data.txt",row.names = FALSE, quote = FALSE)
 
 
