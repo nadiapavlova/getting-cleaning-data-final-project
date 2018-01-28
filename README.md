@@ -13,15 +13,18 @@ This repository contains the following files:
 # Study design
 
 The source data set that this project was based on was obtained from the Human Activity Recognition Using Smartphones Data Set, which describes how the data was initially collected.
-Creation of the Data Set:
+
+# Creation of the Data Set
+
 The R script, run_analysis.R, does the following:
-Download and unzip the dataset if it does not already exist in the working directory
-Read the data
-Merge the training and the test sets to create one data set.
-Extract only the measurements on the mean and standard deviation for each measurement.
-Use descriptive activity names to name the activities in the data set.
-Appropriately label the data set with descriptive variable names.
-Create a second, independent tidy set with the average of each variable for each activity and each subject.
-Write the data set to the tidy_data.txt file.
+
+1. Download and unzip the dataset if it does not already exist in the working directory
+2. Read the data
+3. Merge the training and the test sets to create one data set.
+4. Extract only the measurements on the mean and standard deviation for each measurement.
+5. Use descriptive activity names to name the activities in the data set.
+6. Appropriately label the data set with descriptive variable names.
+7. Create a second, independent tidy set with the average of each variable for each activity and each subject.
+8. Write the data set to the tidy_data.txt file.
 
 The end result is shown in the file tidy_data.txt.

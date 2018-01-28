@@ -1,7 +1,5 @@
----
+
 # Codebook for Getting and Cleaning Data Final Project
-output: html_document
----
 
 The data set that this codebook pertains to is located in the tidy_data.txt file of this repository.
 
